@@ -45,7 +45,7 @@ const Signup = (props) => {
     }
   };
   return (
-    <div className="container my-3">
+    <div className="container my-1">
       <h2>Register to Use CloudBook</h2>
       <hr />
       <form onSubmit={handleSubmit}>

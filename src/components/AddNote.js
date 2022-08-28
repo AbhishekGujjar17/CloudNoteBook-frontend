@@ -22,7 +22,7 @@ const AddNote = (props) => {
     showAlert("Added Successfully", "success");
   };
   return (
-    <div className="container my-3">
+    <div className="container my-1">
       <h2>Add a Note</h2>
       <hr />
       <form onSubmit={handleSubmit}>

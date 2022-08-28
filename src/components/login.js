@@ -40,7 +40,7 @@ const Login = (props) => {
     }
   };
   return (
-    <div className="container my-3">
+    <div className="container my-1">
       <h2>Login to Use CloudBook</h2>
       <hr />
       <form onSubmit={handleSubmit}>
