@@ -16,7 +16,7 @@ const Notes = (props) => {
     } else {
       navigate("/login");
     }
-  }, []);
+  });
   const closeRef = useRef(null);
   const openRef = useRef(null);
   const [note, setNote] = useState({
